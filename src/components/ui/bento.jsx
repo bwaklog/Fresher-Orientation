@@ -23,7 +23,7 @@ export const Page = () => {
         <div className="mt-12 flex mx-12 flex-col lg:flex-row space-x-4">
             {/* Top Left */}
             <div
-                data-aos="fade-up" data-aos-delay={2000}
+                data-aos="fade-up"
                 className="flex lg:w-1/3 rounded-xl p-2 lg:p-4 px-4 lg:px-6 col-span-1 xl:col-span-4 row-span-1 bg-gradient-to-br from-black via-black to-green-800">
                 {/* heading */}
                 <a href="https://homebrew.hsp-ec.xyz/posts/cs101/">
@@ -49,7 +49,6 @@ export const Page = () => {
             {/* Top Right */}
             <div
                 data-aos="fade-up"
-                data-aos-delay={2100}
                 className="flex lg:w-1/3 justify-center items-center p-4 px-6 row-span row-span-1 col-span-1 xl:col-span-3 rounded-xl bg-gradient-to-b from-black via-black to-green-800">
                 {/* heading */}
                 <div className="flex flex-col space-y-6 py-12">
@@ -73,7 +72,7 @@ export const Page = () => {
             </div>
             <div
                 data-aos="fade-up"
-                data-aos-delay={2200}
+
                 className="flex lg:w-1/3 justify-center p-4 px-6 row-span row-span-1 col-span-1 xl:col-span-3 rounded-xl bg-gradient-to-bl from-black via-black to-green-800">
                 {/* heading */}
                 <div className="flex flex-col space-y-6 py-12">
